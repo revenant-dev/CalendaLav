@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.web.calendalav.twa",
+    "sha256_cert_fingerprints": ["69:24:A3:35:05:75:95:FB:51:3D:CB:E6:2B:1E:B3:AA:AF:A0:52:7E:09:F5:A3:10:4A:0F:27:C4:09:FB:30:BD"]
+  }
+}]

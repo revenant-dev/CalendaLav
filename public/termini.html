@@ -1,0 +1,229 @@
+<!--
+* CalendaLav - Termini e Condizioni d'uso
+* © 2026 CalendaLav. Tutti i diritti riservati.
+-->
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; base-uri 'self';">
+    <title>Termini e Condizioni d'uso · CalendaLav</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg viewBox='0 0 512 512' xmlns='http%3A//www.w3.org/2000/svg'><rect x='0' y='0' width='512' height='512' rx='116' fill='%231e3a8a'/><rect x='118' y='140' width='276' height='256' rx='46' fill='none' stroke='%23ffffff' stroke-width='22'/><rect x='130' y='203' width='252' height='22' rx='11' fill='%23ffffff'/><rect x='176' y='98' width='26' height='76' rx='13' fill='%23ffffff'/><rect x='310' y='98' width='26' height='76' rx='13' fill='%23ffffff'/><rect x='222' y='268' width='68' height='76' rx='16' fill='%2393c5fd'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --brand-600: #2563eb; --brand-700: #1d4ed8; --brand-900: #1e3a8a;
+            --brand-50: #eff6ff; --brand-100: #dbeafe;
+            --bg: #f8fafc; --card: #ffffff; --text: #1e293b; --muted: #64748b; --border: #e8edf3;
+            --chip-bg: #eff6ff; --chip-fg: #2563eb; --warn-bg: #fef2f2; --warn-border: #fecaca; --warn-fg: #b91c1c;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --brand-600: #60a5fa; --brand-700: #93c5fd;
+                --brand-50: rgba(37,99,235,.15); --brand-100: rgba(37,99,235,.25);
+                --bg: #0f172a; --card: #1e293b; --text: #e2e8f0; --muted: #94a3b8; --border: #334155;
+                --chip-bg: rgba(96,165,250,.15); --chip-fg: #93c5fd; --warn-bg: rgba(239,68,68,.12); --warn-border: rgba(239,68,68,.35); --warn-fg: #fca5a5;
+            }
+        }
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0; background: var(--bg); color: var(--text);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6; -webkit-font-smoothing: antialiased;
+        }
+        .display { font-family: 'Outfit', 'Inter', sans-serif; }
+        header {
+            background: linear-gradient(135deg, var(--brand-900), var(--brand-600));
+            color: #fff; padding: 2.75rem 1.25rem 2.25rem;
+        }
+        @media (prefers-color-scheme: dark) {
+            header { background: linear-gradient(135deg, #0b1220, #1e293b); border-bottom: 1px solid var(--border); }
+        }
+        .header-wrap { max-width: 720px; margin: 0 auto; display: flex; align-items: center; gap: 1rem; }
+        .app-icon { width: 56px; height: 56px; flex-shrink: 0; filter: drop-shadow(0 4px 10px rgba(0,0,0,.25)); }
+        header h1 { margin: 0; font-size: 1.5rem; font-weight: 700; }
+        header .sub { margin: .25rem 0 0; opacity: .85; font-size: .9rem; }
+        main { max-width: 720px; margin: -1.25rem auto 0; padding: 0 1.25rem 4rem; position: relative; }
+        .intro {
+            background: var(--card); border: 1px solid var(--border); border-radius: 18px;
+            padding: 1.25rem 1.4rem; box-shadow: 0 8px 30px rgba(2,6,23,.06); font-size: .95rem; color: var(--muted);
+        }
+        section.card {
+            background: var(--card); border: 1px solid var(--border); border-radius: 18px;
+            padding: 1.35rem 1.4rem; margin-top: 1rem;
+        }
+        .sec-head { display: flex; align-items: center; gap: .75rem; margin-bottom: .65rem; }
+        .chip {
+            flex-shrink: 0; width: 30px; height: 30px; border-radius: 9px;
+            background: var(--chip-bg); color: var(--chip-fg);
+            display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .9rem;
+        }
+        section.card h2 { font-size: 1.05rem; margin: 0; font-weight: 600; }
+        section.card p { margin: .5rem 0; font-size: .95rem; }
+        section.card ul { margin: .5rem 0; padding-left: 1.1rem; }
+        section.card li { margin-bottom: .4rem; font-size: .95rem; }
+        a { color: var(--brand-600); font-weight: 500; }
+        .placeholder { background: rgba(234,179,8,.2); border-radius: 5px; padding: 0 .3rem; font-weight: 600; }
+        section.warn { border-color: var(--warn-border); }
+        section.warn .chip { background: var(--warn-bg); color: var(--warn-fg); }
+        .back {
+            display: inline-flex; align-items: center; gap: .4rem; margin-top: 1.75rem;
+            text-decoration: none; font-weight: 600; color: var(--brand-600);
+        }
+        footer { max-width: 720px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; color: var(--muted); font-size: .8rem; }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrap">
+            <svg class="app-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="0" y="0" width="512" height="512" rx="116" fill="rgba(255,255,255,.12)"/>
+                <rect x="118" y="140" width="276" height="256" rx="46" fill="none" stroke="#ffffff" stroke-width="22"/>
+                <rect x="130" y="203" width="252" height="22" rx="11" fill="#ffffff"/>
+                <rect x="176" y="98" width="26" height="76" rx="13" fill="#ffffff"/>
+                <rect x="310" y="98" width="26" height="76" rx="13" fill="#ffffff"/>
+                <rect x="222" y="268" width="68" height="76" rx="16" fill="#93c5fd"/>
+            </svg>
+            <div>
+                <h1 class="display">Termini e Condizioni d'uso</h1>
+                <p class="sub">CalendaLav · in vigore dal 06/06/2026</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="intro">
+            I presenti Termini e Condizioni ("Termini") regolano l'accesso e l'uso dell'applicazione
+            <strong>CalendaLav</strong> ("l'App"). Utilizzando l'App accetti integralmente i Termini. Se non li accetti,
+            ti invitiamo a non utilizzare l'App.
+        </div>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">1</span><h2>Titolarità e accettazione</h2></div>
+            <p>L'App è gestita da Domenico Marzo ("il Titolare"). Creando un accesso o
+            utilizzando l'App dichiari di aver letto, compreso e accettato i presenti Termini e l'<a href="./privacy.html">Informativa sulla privacy</a>.</p>
+            <p>L'uso dell'App è riservato a persone maggiorenni o comunque autorizzate a stipulare un accordo vincolante.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">2</span><h2>Descrizione del servizio</h2></div>
+            <p>CalendaLav è uno strumento personale per organizzare turni, ferie, permessi e riposi. I dati inseriti sono
+            salvati esclusivamente sul Google Drive personale dell'utente e, se attivata la funzione, possono essere copiati
+            su un calendario Google dedicato. L'App è fornita a titolo gratuito.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">3</span><h2>Licenza d'uso</h2></div>
+            <p>Il Titolare concede all'utente una licenza <strong>personale, limitata, non esclusiva, non trasferibile e
+            revocabile</strong>, al solo scopo di utilizzare l'App per finalità personali e non commerciali, nel rispetto dei
+            presenti Termini. Nessun diritto diverso da quelli espressamente concessi viene trasferito all'utente.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">4</span><h2>Proprietà intellettuale</h2></div>
+            <p>L'App, il suo nome, il codice sorgente (escluse le librerie open-source di terze parti, soggette alle rispettive
+            licenze), il design, la grafica, i testi e la logica di funzionamento sono protetti dal diritto d'autore e restano
+            di titolarità esclusiva del Titolare. Sono vietate la riproduzione, distribuzione, pubblicazione, modifica o
+            creazione di opere derivate senza autorizzazione scritta.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">5</span><h2>Uso consentito</h2></div>
+            <p>Puoi utilizzare l'App per gestire i tuoi dati personali di lavoro e riposo, esportarli e sincronizzarli con i
+            tuoi servizi Google. Sei responsabile della correttezza dei dati che inserisci e dell'uso che ne fai.</p>
+        </section>
+
+        <section class="card warn">
+            <div class="sec-head"><span class="chip">6</span><h2>Usi vietati</h2></div>
+            <p>È espressamente vietato, a titolo esemplificativo e non esaustivo:</p>
+            <ul>
+                <li>copiare, distribuire, vendere, concedere in licenza, noleggiare o sfruttare commercialmente l'App o parti di essa;</li>
+                <li>decompilare, disassemblare, sottoporre a reverse engineering, deoffuscare o tentare di estrarre il codice sorgente;</li>
+                <li>modificare, adattare o creare opere derivate dell'App, o rimuovere avvisi di copyright e segni distintivi;</li>
+                <li>aggirare, disattivare o compromettere misure di sicurezza, autenticazione, limitazioni d'uso o controlli d'accesso;</li>
+                <li>utilizzare strumenti automatizzati (bot, scraper, crawler) o effettuare richieste massive ai servizi collegati;</li>
+                <li>sovraccaricare, danneggiare o interferire con l'App, i suoi server o le infrastrutture di terze parti collegate;</li>
+                <li>introdurre malware, codice dannoso o tentare accessi non autorizzati a dati, account o sistemi altrui;</li>
+                <li>utilizzare l'App per trattare dati di terzi senza valida base giuridica o per violare diritti altrui;</li>
+                <li>impiegare l'App per attività illecite, fraudolente, ingannevoli o in violazione di leggi e regolamenti applicabili;</li>
+                <li>presentare l'App come propria o utilizzarne nome, marchio o grafica in modo non autorizzato.</li>
+            </ul>
+            <p>La violazione di queste disposizioni comporta la cessazione immediata della licenza e può dar luogo ad azioni a tutela dei diritti del Titolare.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">7</span><h2>Account e accesso</h2></div>
+            <p>L'accesso avviene tramite "Accedi con Google". Sei responsabile della custodia delle tue credenziali Google e
+            delle attività svolte tramite il tuo accesso. Il Titolare non gestisce né conserva le tue password.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">8</span><h2>Dati dell'utente e privacy</h2></div>
+            <p>I dati del calendario restano sul tuo Google Drive personale e non sono accessibili al Titolare. Il trattamento
+            dei dati è descritto nell'<a href="./privacy.html">Informativa sulla privacy</a>, che costituisce parte integrante
+            dei presenti Termini. Sei responsabile di eseguire backup dei tuoi dati tramite le funzioni messe a disposizione.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">9</span><h2>Servizi di terze parti</h2></div>
+            <p>L'App utilizza servizi di Google (autenticazione tramite Firebase, Google Drive e, se attivata, Google Calendar).
+            Tali servizi sono soggetti ai rispettivi termini e informative. Il Titolare non risponde di malfunzionamenti,
+            modifiche o interruzioni di servizi di terze parti.</p>
+        </section>
+
+        <section class="card warn">
+            <div class="sec-head"><span class="chip">10</span><h2>Esclusione di garanzie</h2></div>
+            <p>L'App è fornita "<strong>così com'è</strong>" e "come disponibile", senza garanzie di alcun tipo, espresse o
+            implicite, comprese quelle di idoneità a uno scopo specifico, continuità o assenza di errori. In particolare, i
+            conteggi di turni, ferie, permessi e riposi hanno valore puramente indicativo: <strong>verifica sempre in autonomia</strong>
+            le tue scadenze e i dati ufficiali del tuo datore di lavoro.</p>
+        </section>
+
+        <section class="card warn">
+            <div class="sec-head"><span class="chip">11</span><h2>Limitazione di responsabilità</h2></div>
+            <p>Nei limiti consentiti dalla legge, il Titolare non è responsabile per perdite di dati, mancati guadagni,
+            malfunzionamenti, calcoli errati o danni diretti o indiretti derivanti dall'uso o dall'impossibilità di usare l'App.
+            L'utilizzo dell'App avviene a esclusivo rischio dell'utente.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">12</span><h2>Disponibilità e modifiche del servizio</h2></div>
+            <p>Il Titolare può modificare, sospendere o interrompere l'App, in tutto o in parte, in qualsiasi momento e senza
+            preavviso, senza che ciò comporti alcun obbligo o responsabilità nei confronti dell'utente.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">13</span><h2>Modifiche ai Termini</h2></div>
+            <p>Il Titolare può aggiornare questi Termini nel tempo. La data "in vigore dal" in alto indica l'ultima revisione.
+            L'uso continuato dell'App dopo le modifiche costituisce accettazione dei Termini aggiornati.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">14</span><h2>Legge applicabile e foro</h2></div>
+            <p>I presenti Termini sono regolati dalla legge italiana. Per ogni controversia è competente il foro di
+            Milano, salvo il foro inderogabile del consumatore ove applicabile.</p>
+        </section>
+
+        <section class="card">
+            <div class="sec-head"><span class="chip">15</span><h2>Contatti</h2></div>
+            <p>Per domande sui presenti Termini puoi scrivere a domenico.marzo89@gmail.com.</p>
+        </section>
+
+        <a class="back" href="./index.html">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            Torna all'App
+        </a>
+    </main>
+
+    <footer>
+        © 2026 CalendaLav · Tutti i diritti riservati.
+    </footer>
+</body>
+
+</html>
