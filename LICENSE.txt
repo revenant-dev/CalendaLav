@@ -1,0 +1,35 @@
+LICENZA D'USO DEL SOFTWARE "CalendaLav"
+Copyright © 2026 Domenico Marzo. Tutti i diritti riservati.
+
+1. TITOLARITÀ
+   Il software "CalendaLav", comprensivo di codice sorgente, codice
+   compilato/offuscato, interfacce, grafica, icone, struttura e
+   documentazione (di seguito "il Software"), è opera dell'ingegno di
+   Domenico Marzo ed è protetto dalla legge italiana sul diritto d'autore
+   (L. 633/1941 e s.m.i.) e dalle convenzioni internazionali applicabili.
+
+2. DIVIETI
+   Salvo esplicita autorizzazione scritta del titolare, è VIETATO:
+   a) copiare, riprodurre o duplicare il Software, in tutto o in parte;
+   b) distribuire, pubblicare, concedere in sublicenza, vendere o
+      noleggiare il Software o sue parti;
+   c) modificare, adattare, tradurre o creare opere derivate;
+   d) decompilare, disassemblare o effettuare reverse engineering, salvo
+      nei limiti inderogabili previsti dalla legge;
+   e) rimuovere o alterare avvisi di copyright, marchi o note di proprietà.
+
+3. USO CONSENTITO
+   L'accesso al Software tramite il dominio ufficiale è concesso ai soli
+   fini dell'utilizzo personale del servizio. Nessun diritto di proprietà
+   intellettuale viene trasferito all'utente.
+
+4. ASSENZA DI GARANZIE
+   Il Software è fornito "così com'è", senza garanzie di alcun tipo. Il
+   titolare non risponde di danni diretti o indiretti derivanti dall'uso.
+
+5. LEGGE APPLICABILE E FORO
+   La presente licenza è regolata dalla legge italiana. Per ogni
+   controversia è competente il foro del luogo di residenza del titolare,
+   salvo norme imperative a tutela del consumatore.
+
+Per richieste di licenza o autorizzazioni: domenico.marzo89@gmail.com

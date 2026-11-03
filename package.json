@@ -1,0 +1,16 @@
+{
+  "name": "calendalav-build",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Build di produzione per CalendaLav: offusca il JS inline e minifica l'HTML.",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.js -i input.css -o public/app.css --minify",
+    "build:html": "node build.mjs",
+    "build": "npm run build:css && npm run build:html"
+  },
+  "devDependencies": {
+    "html-minifier-terser": "^7.2.0",
+    "tailwindcss": "^3.4.19"
+  }
+}
