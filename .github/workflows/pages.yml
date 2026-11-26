@@ -1,0 +1,40 @@
+# Pubblica su GitHub Pages SOLO la cartella public/ (il resto del repo non viene pubblicato).
+# Va salvato nel repository come:  .github/workflows/pages.yml
+# Poi: Settings -> Pages -> Source: "GitHub Actions".
+name: Deploy public/ to GitHub Pages
+
+on:
+  push:
+    branches: [main]      # a ogni push su main il sito si ripubblica da solo
+  workflow_dispatch:      # permette anche l'avvio manuale dalla scheda "Actions"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout del repository
+        uses: actions/checkout@v4
+
+      - name: Configura Pages
+        uses: actions/configure-pages@v5
+
+      - name: Impacchetta la cartella public/
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public      # <-- è questa riga a dire "pubblica solo public/"
+
+      - name: Pubblica su Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
