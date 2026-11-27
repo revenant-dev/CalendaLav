@@ -6,7 +6,7 @@
 /* CalendaLav - service worker minimo per l'avvio offline della "shell" dell'app.
    Va servito dalla stessa cartella di index.html (stessa origine).
    I dati restano su Google Drive: questo SW NON mette in cache le chiamate a Google. */
-const CACHE = 'CalendaLav-v4.7';
+const CACHE = 'CalendaLav-v4.8';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png', './icon-192.png', './icon-512.png', './icon-maskable.png', './app.css', './sql-wasm.js'];
 
 self.addEventListener('install', (e) => {
